@@ -31,6 +31,7 @@ on:
           - 'The Parasite Project'
           - 'Project Sakura 11.0'
           - 'Crdroid-14'
+          - 'InfinityX'
       BUILD_DIFFERENT_ROM:
         description: "Command to initialize a different 'repo' project:"
         required: false
@@ -214,7 +215,12 @@ jobs:
           export PROJECTFOLDER="/crave-devspaces/Crdroid-14"
           export PROJECTID="72"
           export REPO_INIT="repo init -u https://github.com/crdroidandroid/android.git -b 14.0 --git-lfs"
-        esac
+          ;;
+         "InfinityX")
+          export PROJECTFOLDER="/crave-devspaces/InfinityX"
+          export PROJECTID="72"
+          export REPO_INIT="repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b QPR3 -g default,-mips,-darwin,-notdefault"
+         esac
 
         if [[ ${{ github.event.inputs.PRODUCT_NAME }} == *_* ]] && [[ ${{ github.event.inputs.PRODUCT_NAME }} != gsi_* ]] && [[ ${{ github.event.inputs.PRODUCT_NAME }} != sdk_* ]] && [[ ${{ github.event.inputs.PRODUCT_NAME }} != *_sprout ]] && [[ ${{ github.event.inputs.PRODUCT_NAME }} != Mi439_* ]] && [[ ${{ github.event.inputs.PRODUCT_NAME }} != Mi8937_* ]]; then
           LUNCH="lunch ${{ github.event.inputs.PRODUCT_NAME }}-${{ github.event.inputs.BUILD_TYPE }}"
