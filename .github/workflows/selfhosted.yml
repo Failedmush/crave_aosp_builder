@@ -180,7 +180,7 @@ jobs:
         "Rising 15")
           export PROJECTFOLDER="/crave-devspaces/Rising15"
           export PROJECTID="86"
-          export REPO_INIT="repo init -u https://github.com/RisingOS-Revived/android.git t -b qpr2 --git-lfs --depth=1"
+          export REPO_INIT="repo init -u https://github.com/RisingOS-Revived/android.git t -b qpr2 --git-lfs"
         ;;
         "LineageOS 18.1")
           export PROJECTFOLDER="/crave-devspaces/Lineage18"
