@@ -177,7 +177,7 @@ jobs:
           export PROJECTID="82"
           export REPO_INIT="repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs --depth=1"
         ;;
-        "Rising Revived 15")
+        "Rising 15")
           export PROJECTFOLDER="/crave-devspaces/Rising15"
           export PROJECTID="86"
           export REPO_INIT="repo init -u  https://github.com/RisingOS-Revived/android.git t -b fifteen --git-lfs --depth=1"
