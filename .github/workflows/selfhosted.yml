@@ -149,7 +149,7 @@ jobs:
           export REPO_INIT="repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-13.1 --depth=1"
         ;;
         "DerpFest 15.0")
-          export PROJECTFOLDER="/crave-devspaces/DerpFest14"
+          export PROJECTFOLDER="/crave-devspaces/DerpFest15"
           export PROJECTID="64"
           export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --depth=1"
         ;;
@@ -159,7 +159,7 @@ jobs:
           export REPO_INIT="repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1"
           ;;
         "LineageOS-Ext")
-          export PROJECTFOLDER="/crave-devspaces/LineageOS-Ext"
+          export PROJECTFOLDER="/crave-devspaces/LineageOS"
           export PROJECTID="93"
           export REPO_INIT="repo init -u https://github.com/Los-Ext/manifest.git -b 15 --git-lfs"
         ;;
