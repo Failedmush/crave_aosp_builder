@@ -16,7 +16,7 @@ on:
         default: 'LineageOS 21.0'
         type: choice
         options:
-          - 'LineageOS EXT'
+          - 'LineageOS-EXT'
           - 'LineageOS 20.0'
           - 'LineageOS 21.0'
           - 'LineageOS 22.1'
