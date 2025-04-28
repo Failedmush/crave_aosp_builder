@@ -16,7 +16,7 @@ on:
         default: 'LineageOS 21.0'
         type: choice
         options:
-          - 'LineageOS-EXT'
+          - 'Evolution X'
           - 'LineageOS 20.0'
           - 'LineageOS 21.0'
           - 'LineageOS 22.1'
@@ -158,10 +158,10 @@ jobs:
           export PROJECTID="72"
           export REPO_INIT="repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1"
         ;;
-        "LineageOS-Ext")
-          export PROJECTFOLDER="/crave-devspaces/LineageOS"
+        "Evolution X")
+          export PROJECTFOLDER="/crave-devspaces/Evolution X"
           export PROJECTID="93"
-          export REPO_INIT="repo init -u https://github.com/Los-Ext/manifest.git -b 15 --git-lfs --depth=1"
+          export REPO_INIT="repo init -u repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1"
         ;;
         "LineageOS 22.1")
           export PROJECTFOLDER="/crave-devspaces/Lineage22"
