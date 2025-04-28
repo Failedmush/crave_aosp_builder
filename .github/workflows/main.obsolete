@@ -104,7 +104,7 @@ jobs:
           export PROJECTFOLDER="/crave-devspaces/DerpFest15"
           export PROJECTID="64"
           export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --depth=1"
- ;;
+        ;;
         "LineageOS-Ext")
           export PROJECTFOLDER="/crave-devspaces/LineageOS-Ext"
           export PROJECTID="93"
