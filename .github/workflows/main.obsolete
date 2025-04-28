@@ -101,7 +101,7 @@ jobs:
 
         ;;
         "DerpFest 15.0")
-          export PROJECTFOLDER="/crave-devspaces/DerpFest14"
+          export PROJECTFOLDER="/crave-devspaces/DerpFest15"
           export PROJECTID="64"
           export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --depth=1"
  ;;
