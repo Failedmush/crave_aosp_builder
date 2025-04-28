@@ -16,6 +16,7 @@ on:
         default: 'LineageOS 21.0'
         type: choice
         options:
+          - 'LineageOS EXT'
           - 'LineageOS 20.0'
           - 'LineageOS 21.0'
           - 'LineageOS 22.1'
@@ -103,6 +104,11 @@ jobs:
           export PROJECTFOLDER="/crave-devspaces/DerpFest14"
           export PROJECTID="64"
           export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1"
+ ;;
+        "LineageOS-Ext")
+          export PROJECTFOLDER="/crave-devspaces/LineageOS-Ext"
+          export PROJECTID="93"
+          export REPO_INIT="repo init -u https://github.com/Los-Ext/android_manifest.git -b 15 --git-lfs --depth=1"
         ;;
         "LineageOS 21.0")
           export PROJECTFOLDER="/crave-devspaces/Lineage21"
