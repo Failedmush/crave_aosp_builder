@@ -157,7 +157,7 @@ jobs:
           export PROJECTFOLDER="/crave-devspaces/Lineage21"
           export PROJECTID="72"
           export REPO_INIT="repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1"
-          ;;
+        ;;
         "LineageOS-Ext")
           export PROJECTFOLDER="/crave-devspaces/LineageOS"
           export PROJECTID="93"
