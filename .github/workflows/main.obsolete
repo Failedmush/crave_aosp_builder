@@ -108,7 +108,8 @@ jobs:
         "LineageOS-Ext")
           export PROJECTFOLDER="/crave-devspaces/LineageOS-Ext"
           export PROJECTID="93"
-          export REPO_INIT="repo init -u https://github.com/Los-Ext/android_manifest.git -b 15 --git-lfs --depth=1"
+          export REPO_INIT="--depth=1 --no-repo-verify -u https://github.com/Los-Ext/manifest.git -b 15 --git-lfs -g default,-mips,-darwin,-notdefault"
+"
         ;;
         "LineageOS 21.0")
           export PROJECTFOLDER="/crave-devspaces/Lineage21"
