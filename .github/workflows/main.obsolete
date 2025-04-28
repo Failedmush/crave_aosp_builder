@@ -21,7 +21,7 @@ on:
           - 'LineageOS 21.0'
           - 'LineageOS 22.1'
           - 'ArrowOS 13.1'
-          - 'DerpFest 14.0'
+          - 'DerpFest 15.0'
           - 'CipherOS 15'
           - 'PixelOS 15'
           - 'RisingOS 15'
@@ -100,10 +100,10 @@ jobs:
           export REPO_INIT="repo init -u https://github.com/ArrowOS/android_manifest.git -b arrow-13.1 --depth=1"
 
         ;;
-        "DerpFest 14.0")
+        "DerpFest 15.0")
           export PROJECTFOLDER="/crave-devspaces/DerpFest14"
           export PROJECTID="64"
-          export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1"
+          export REPO_INIT="repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 15 --depth=1"
  ;;
         "LineageOS-Ext")
           export PROJECTFOLDER="/crave-devspaces/LineageOS-Ext"
