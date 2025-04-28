@@ -161,7 +161,7 @@ jobs:
         "LineageOS-Ext")
           export PROJECTFOLDER="/crave-devspaces/LineageOS"
           export PROJECTID="93"
-          export REPO_INIT="repo init -u https://github.com/Los-Ext/manifest.git -b 15 --git-lfs"
+          export REPO_INIT="repo init -u https://github.com/Los-Ext/manifest.git -b 15 --git-lfs --depth=1"
         ;;
         "LineageOS 22.1")
           export PROJECTFOLDER="/crave-devspaces/Lineage22"
@@ -186,7 +186,7 @@ jobs:
         "Rising Revived 15")
           export PROJECTFOLDER="/crave-devspaces/Rising15"
           export PROJECTID="86"
-          export REPO_INIT="repo init -u https://github.com/RisingOS-Revived/android.git -b qpr2 --git-lfs --depth=1"
+          export REPO_INIT="repo init -u https://github.com/RisingOS-Revived/android.git -b fifteen --git-lfs --depth=1"
         ;;
         "LineageOS 18.1")
           export PROJECTFOLDER="/crave-devspaces/Lineage18"
