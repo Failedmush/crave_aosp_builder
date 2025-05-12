@@ -516,8 +516,6 @@ jobs:
         export BUILD_USERNAME=${{ github.actor }} ; \
         export BUILD_HOSTNAME=crave ; \ 
         # GMS build flags, false by default
-       # ship with GMS packages, replaces default AOSP packages with Google manufactured packages.
-        WITH_GMS := false
            source build/envsetup.sh && \
 
         echo "Repository: ${{ github.repository }}"; \
