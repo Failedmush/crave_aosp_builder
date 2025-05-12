@@ -515,8 +515,8 @@ jobs:
         # Set up build environment
         export BUILD_USERNAME=${{ github.actor }} ; \
         export BUILD_HOSTNAME=crave ; \ 
-        # GMS build flags, false by default
-           source build/envsetup.sh && \
+       Add the following variables:
+        source build/envsetup.sh && \
 
         echo "Repository: ${{ github.repository }}"; \
         echo "Run ID: ${{ github.run_id }}"; \
