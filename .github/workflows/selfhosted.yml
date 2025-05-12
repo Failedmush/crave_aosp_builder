@@ -515,7 +515,7 @@ jobs:
         # Set up build environment
         export BUILD_USERNAME=${{ github.actor }} ; \
         export BUILD_HOSTNAME=crave ; \
-        export TARGET_INCLUDE_GAPPS=false ;\
+        export TARGET_INCLUDE_GMS=false ;\
         source build/envsetup.sh && \
 
         echo "Repository: ${{ github.repository }}"; \
