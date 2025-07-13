@@ -525,6 +525,7 @@ jobs:
         if [ -f /usr/bin/resync ]; then
           /usr/bin/resync # For compatibility with Omansh's Docker image 
         else
+        rm -rf prebuilts/clang/host/linux-x86
           /opt/crave/resync.sh
         fi && \
 
